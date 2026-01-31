@@ -1,0 +1,18 @@
+{
+  "name": "assignment01_it23265110",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed --workers=1",
+    "test:report": "npx playwright show-report"
+  },
+  "keywords": [],
+  "author": "IT23265110",
+  "license": "ISC",
+  "description": "IT3040 Assignment 01 - SwiftTranslator Automation Testing with Playwright",
+  "devDependencies": {
+    "@playwright/test": "^1.58.0",
+    "@types/node": "^25.0.10"
+  }
+}
