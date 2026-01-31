@@ -82,7 +82,7 @@ npx playwright test
 ```bash
 npm run test:headed
 ```
-or
+### Highly recommended
 ```bash
 npx playwright test --workers=1 --headed
 ```
